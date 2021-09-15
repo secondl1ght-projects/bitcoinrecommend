@@ -2,7 +2,7 @@
 
 A bitcoin recommendations website showcasing useful hardware, software and resources for all levels of users.
 
-Link to site: <URL placeholder>
+Link to site: URL placeholder
 
 ## Table of Contents
 
@@ -42,7 +42,7 @@ I wanted to make a curated list of bitcoin tools that I have found useful so tha
 
 ## Screenshots
 
-<Screenshot placeholder>
+Screenshot placeholder
 
 ## Usage
 
@@ -56,7 +56,7 @@ Currently in early phase development.
 
 ## Deployment Status
 
-<Deployment status placeholder>
+Deployment status placeholder
 
 ## Room for Improvement
 
