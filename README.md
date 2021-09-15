@@ -18,7 +18,7 @@ Link to site: URL placeholder
 
 ## General Information
 
-I wanted to make a curated list of bitcoin tools that I have found useful so that other bitcoiners can give them a try if interested. By no means if a technology is not on this list does it mean that I would not endorse it or that it is not a good project. This is simply a list of resources I have researched and found that they are good projects and have been around for a while. I am not actively looking to test and add to this list at the moment. You could say that this would be a solid stack for any bitcoin user.
+I wanted to make a curated list of bitcoin tools that I have found useful so that other bitcoiners can give them a try if interested. By no means if a technology is not on this list does it mean that I would not endorse it or that it is not a good project. This is simply a list of resources I have researched and found that they are good projects, and have been around for a while. You could say that this would be a solid stack for any bitcoin user.
 
 ## Technologies Used
 
