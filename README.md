@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# BITCOIN RECOMMENDATIONS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A bitcoin recommendations website showcasing useful hardware, software and resources for all levels of users.
 
-## Available Scripts
+Link to site: <URL placeholder>
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+-   [General Info](#general-information)
+-   [Technologies Used](#technologies-used)
+-   [Features](#features)
+-   [Screenshots](#screenshots)
+-   [Usage](#usage)
+-   [Project Status](#project-status)
+-   [Room for Improvement](#room-for-improvement)
+-   [Acknowledgements](#acknowledgements)
+-   [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## General Information
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I wanted to make a curated list of bitcoin tools that I have found useful so that other bitcoiners can give them a try if interested. By no means if a technology is not on this list does it mean that I would not endorse it or that it is not a good project. This is simply a list of resources I have researched and found that they are good projects and have been around for a while. Sometimes when you find something that works well you do not try anything new to replace it, I am not actively looking to test and add to this list currently. You could say that this would be a solid stack for any bitcoin user.
 
-### `yarn test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   HTML
+-   CSS
+-   JavaScript
+-   React
 
-### `yarn build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   Hardware wallets
+-   Software wallets
+-   Exchanges
+-   Backups
+-   Nodes
+-   Price tracking
+-   Mixing
+-   Lightning
+-   Block explorers
+-   More resources
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<Screenshot placeholder>
 
-### `yarn eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Works on both desktop and mobile, accessed via web browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Status
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Project is: _in progress_
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Currently in early phase development.
 
-## Learn More
+## Deployment Status
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<Deployment status placeholder>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Room for Improvement
 
-### Code Splitting
+-   Any feedback is appreciated
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgements
 
-### Analyzing the Bundle Size
+-   Fonts by Google Fonts
+-   Icons by (<https://www.fontawesome.com>)
+-   Coded using Atom text editor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+If you would like to contact me please send me a message on Discord @secondl1ght#9164 or by e-mail at secondl1ght@protonmail.com, I would love to hear from you!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Personal portfolio website: <https://www.secondl1ght.site>
