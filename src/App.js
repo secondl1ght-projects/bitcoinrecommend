@@ -10,6 +10,7 @@ import More from "./components/more";
 import Nodes from "./components/nodes";
 import Price from "./components/price";
 import SoftWallets from "./components/softwallets";
+import './App.css';
 
 function App() {
   return (

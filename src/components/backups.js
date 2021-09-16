@@ -16,7 +16,7 @@ export default function Backups() {
           name="backups"
           onClick={handleOnClick}
         >
-          Backups
+          Seed Backup
         </button>
       </div>
     );
@@ -32,7 +32,7 @@ export default function Backups() {
         </h4>
         <p>
           This titanium metal backup for your seed phrase will survive anything
-          imagineable. It's literally bulletproof. A must have for any serious
+          imaginable. It's literally bulletproof. A must have for any serious
           hodler.
         </p>
       </div>

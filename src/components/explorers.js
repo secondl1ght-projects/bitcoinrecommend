@@ -31,7 +31,7 @@ export default function Explorers() {
           </a>
         </h4>
         <p>
-          Probablly the most popular blockchain explorer and for good reason,
+          Probably the most popular blockchain explorer and for good reason,
           mempool.space offers excellent statistics paired with sharp visuals to
           enable you to explore the entire blockchain.
         </p>
@@ -44,7 +44,7 @@ export default function Explorers() {
         <p>
           Brought to you by the Samourai crew, this blockchain explorer will be
           extra useful if you are looking to analyze privacy on-chain. You can
-          view detailed data on coinjoin transactions and more.
+          view detailed data on CoinJoin transactions and more.
         </p>
       </div>
     );

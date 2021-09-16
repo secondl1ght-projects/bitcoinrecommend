@@ -36,7 +36,7 @@ export default function Exchanges() {
           not needed in your trading partner either as all trades have security
           deposits locked in multi-sig until the trade is finalized. No
           permission and no KYC is required, this is one of the most cypherpunk
-          ways to aquire bitcoin next to getting paid in it.
+          ways to acquire bitcoin next to getting paid in it.
         </p>
         <br />
         <h4>

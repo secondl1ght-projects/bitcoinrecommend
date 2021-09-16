@@ -36,6 +36,44 @@ export default function Lightning() {
         </p>
         <br />
         <h4>
+          <a href="https://zeusln.app/" target="_blank" rel="noreferrer">
+            Zeus Wallet
+          </a>
+        </h4>
+        <p>
+          Another great lightning wallet option, currently getting a complete
+          redesign for a better user experience. Send and receive payments on
+          the lightning network through your own node easily with Zeus.
+        </p>
+        <br />
+        <h4>
+          <a href="https://www.thunderhub.io/" target="_blank" rel="noreferrer">
+            Thunderhub
+          </a>
+        </h4>
+        <p>
+          Easily manage your lightning node with this super slick UI, opening
+          and closing channels and more is as easy as a click of a button.
+        </p>
+        <br />
+        <h4>
+          <a
+            href="https://lightning.engineering/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Lightning Labs
+          </a>
+        </h4>
+        <p>
+          The creators of LND, an integral part of the lightning network.
+          Lightning Labs has a suite of products to help you manage your
+          liquidity on the network. Check them out and I am sure you will find
+          one of their offerings very useful, if you are a serious lightning
+          user.
+        </p>
+        <br />
+        <h4>
           <a href="https://explorer.acinq.co/" target="_blank" rel="noreferrer">
             Lightning Network Explorer
           </a>
