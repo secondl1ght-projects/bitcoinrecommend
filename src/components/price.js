@@ -26,8 +26,8 @@ export default function Price() {
           </a>
         </h4>
         <p>
-          A desktop app for portfolio tracking with a nice interface, this is a
-          paid option - but well worth it and supports a dev.
+          A desktop app for portfolio tracking with a nice interface. This is a
+          paid option - but well worth it and you will support a dev.
         </p>
         <br />
         <h4>
@@ -36,7 +36,7 @@ export default function Price() {
           </a>
         </h4>
         <p>
-          Probably the most popular website for price data and charts, until I
+          Probably the most popular website for price data and charts. Until I
           am aware of a bitcoin-only site like this, i'll keep using it.
         </p>
       </div>

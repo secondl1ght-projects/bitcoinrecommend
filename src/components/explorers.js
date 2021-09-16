@@ -31,7 +31,7 @@ export default function Explorers() {
           </a>
         </h4>
         <p>
-          Probably the most popular blockchain explorer and for good reason,
+          Probably the most popular blockchain explorer, and for good reason.
           mempool.space offers excellent statistics paired with sharp visuals to
           enable you to explore the entire blockchain.
         </p>

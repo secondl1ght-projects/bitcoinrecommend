@@ -46,7 +46,7 @@ export default function HardWallets() {
         </h4>
         <p>
           Likely the easiest to use hardware wallet on the market. An important
-          note - Ledger was hacked and personal details of customers was leaked
+          note - Ledger's database was hacked and personal details of customers were leaked
           online. This may be enough to deter some people from choosing them.
         </p>
       </div>

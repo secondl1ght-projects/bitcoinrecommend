@@ -24,7 +24,7 @@ export default function Lightning() {
     return (
       <div>
         <h2>Lightning Network</h2>
-        <h3>Bitcoins layer 2 network for daily transactions.</h3>
+        <h3>Bitcoin's layer 2 network for daily transactions.</h3>
         <h4>
           <a href="https://zaphq.io/" target="_blank" rel="noreferrer">
             Zap Wallet

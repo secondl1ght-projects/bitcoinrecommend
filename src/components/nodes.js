@@ -40,7 +40,7 @@ export default function Nodes() {
         <p>
           If you like what the Samourai team is doing and want to complete the
           stack, then RoninDojo is what you are looking for. This node will not
-          come with lightning though, if you are looking for an all in one
+          come with lightning though, if you are looking for an all-in-one
           option.
         </p>
         <br />

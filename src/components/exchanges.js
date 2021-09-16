@@ -24,7 +24,7 @@ export default function Exchanges() {
     return (
       <div>
         <h2>Bitcoin Exchanges</h2>
-        <h3>Buy (and maybe sell) Bitcoin</h3>
+        <h3>Buy (and maybe sell) bitcoin</h3>
         <h4>
           <a href="https://bisq.network/" target="_blank" rel="noreferrer">
             Bisq
@@ -45,10 +45,10 @@ export default function Exchanges() {
           </a>
         </h4>
         <p>
-          Headed by OG bitcoiner Jesse Powell, after Mt.Gox went down Jesse saw
+          Headed by OG bitcoiner Jesse Powell, after Mt. Gox went down Jesse saw
           a need for a better option for bitcoiners. Kraken has an immaculate
           security record, never having been hacked. They are a true bitcoiner
-          company and in it for the right reasons. If you are OK with KYC then I
+          company and in it for the right reasons. If you are OK with KYC, then I
           think they are the best international exchange option.
         </p>
         <br />
@@ -60,7 +60,7 @@ export default function Exchanges() {
         <p>
           If you are located in Canada then Newton is a great option. I would
           call them the Kraken of Canada, which is a big compliment. Also headed
-          by a CEO who understands bitcoins mission. Newton offers the best
+          by a CEO who understands bitcoin's mission. Newton offers the best
           UI/UX in Canada and quite possibly in the entire exchange industry.
         </p>
       </div>
