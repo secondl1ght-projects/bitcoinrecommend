@@ -9,7 +9,7 @@ export default function Exchanges() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button
           id="exchanges"
           type="button"
@@ -22,7 +22,7 @@ export default function Exchanges() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>Bitcoin Exchanges</h2>
         <h3>Buy (and maybe sell) bitcoin</h3>
         <h4>

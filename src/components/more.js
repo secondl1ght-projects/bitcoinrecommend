@@ -9,7 +9,7 @@ export default function More() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button id="more" type="button" name="more" onClick={handleOnClick}>
           More Resources
         </button>
@@ -17,7 +17,7 @@ export default function More() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>More Resources</h2>
         <h3>The learning never stops, and it shouldn't!</h3>
         <h4>

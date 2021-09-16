@@ -9,7 +9,7 @@ export default function Price() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button id="price" type="button" name="price" onClick={handleOnClick}>
           Price Tracking
         </button>
@@ -17,7 +17,7 @@ export default function Price() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>Price Tracking</h2>
         <h3>Check in on charts and price action.</h3>
         <h4>

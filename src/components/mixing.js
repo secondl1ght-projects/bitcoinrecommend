@@ -9,7 +9,7 @@ export default function Mixing() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button id="mixing" type="button" name="mixing" onClick={handleOnClick}>
           Mixing
         </button>
@@ -17,7 +17,7 @@ export default function Mixing() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>Mixing (CoinJoin)</h2>
         <h3>
           Smelt UTXOs with others to create freshly minted bitcoins again.

@@ -9,7 +9,7 @@ export default function HardWallets() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button
           id="hardwarewallets"
           type="button"
@@ -22,7 +22,7 @@ export default function HardWallets() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>Hardware Wallets</h2>
         <h3>Secure your bitcoin</h3>
         <h4>

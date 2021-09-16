@@ -9,7 +9,7 @@ export default function Lightning() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button
           id="lightning"
           type="button"
@@ -22,7 +22,7 @@ export default function Lightning() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>Lightning Network</h2>
         <h3>Bitcoin's layer 2 network for daily transactions.</h3>
         <h4>

@@ -9,7 +9,7 @@ export default function SoftWallets() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button
           id="softwarewallets"
           type="button"
@@ -22,7 +22,7 @@ export default function SoftWallets() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>Software Wallets</h2>
         <h3>Access your bitcoin</h3>
         <h4>

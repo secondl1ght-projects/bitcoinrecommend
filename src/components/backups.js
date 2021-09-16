@@ -9,7 +9,7 @@ export default function Backups() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button
           id="backups"
           type="button"
@@ -22,7 +22,7 @@ export default function Backups() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>Metal Backup</h2>
         <h3>The Ultimate Cold Storage.</h3>
         <h4>

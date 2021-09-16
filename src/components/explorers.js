@@ -9,7 +9,7 @@ export default function Explorers() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button
           id="explorers"
           type="button"
@@ -22,7 +22,7 @@ export default function Explorers() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>Block Explorers</h2>
         <h3>The blockchain, visualized.</h3>
         <h4>

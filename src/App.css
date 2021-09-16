@@ -1,0 +1,39 @@
+.cardintro {
+  margin: 5%;
+  border: 5px solid black;
+  width: 35%;
+  height: 35rem;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B58AEE;
+}
+
+.cardclick {
+  margin: 5%;
+  border: 5px solid black;
+  width: 35%;
+  height: 35rem;
+  border-radius: 5%;
+  overflow: auto;
+  text-align: center;
+  background-color: #B58AEE;
+}
+
+button {
+  width: 25%;
+  height: 15%;
+  background-color: black;
+  border-radius: 2.5%;
+  color: whitesmoke;
+  border: 5px solid #6E34BC;
+}
+
+button:hover {
+  border: 5px solid whitesmoke;
+}
+
+html {
+  background-color: #523E6B;
+}

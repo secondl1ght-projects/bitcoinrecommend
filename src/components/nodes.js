@@ -9,7 +9,7 @@ export default function Nodes() {
 
   if (initial === true) {
     return (
-      <div>
+      <div class='cardintro'>
         <button id="nodes" type="button" name="nodes" onClick={handleOnClick}>
           Nodes
         </button>
@@ -17,7 +17,7 @@ export default function Nodes() {
     );
   } else {
     return (
-      <div>
+      <div class='cardclick'>
         <h2>Nodes</h2>
         <h3>Have direct access to the bitcoin network!</h3>
         <h4>
