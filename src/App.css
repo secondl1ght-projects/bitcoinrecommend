@@ -105,8 +105,7 @@
 }
 
 button {
-  width: 25%;
-  height: 15%;
+  padding: 3%;
   background-color: black;
   border-radius: 2.5%;
   color: whitesmoke;
@@ -163,7 +162,7 @@ img {
 }
 
 #normal {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   border: none;
   padding: 0;
 }
@@ -201,4 +200,19 @@ footer a:hover {
 
 #git:hover {
   color: #523E6B;
+}
+
+@media only screen and (max-width: 770px) {
+  h1 {
+    width: 50%;
+  }
+
+  .cardintro, .cardclick {
+    width: 75%;
+    height: 30rem;
+  }
+
+  #intro {
+    width: 70%;
+  }
 }
