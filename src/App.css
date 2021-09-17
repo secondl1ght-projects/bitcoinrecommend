@@ -123,6 +123,7 @@ html {
   background-color: #523E6B;
   position: relative;
   min-height: 100%;
+  border: 1px solid black;
 }
 
 h2, h3, h4, button {
