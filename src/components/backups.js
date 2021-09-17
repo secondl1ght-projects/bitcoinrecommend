@@ -23,7 +23,7 @@ export default function Backups() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='fire'>
         <h2>Metal Backup</h2>
         <h3>The ultimate cold storage</h3>
         <div class="box">

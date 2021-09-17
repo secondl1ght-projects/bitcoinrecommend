@@ -24,7 +24,7 @@ export default function Explorers() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='blocks'>
         <h2>Block Explorers</h2>
         <h3>The blockchain, visualized.</h3>
         <div class="box">

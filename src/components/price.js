@@ -19,7 +19,7 @@ export default function Price() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='chart'>
         <h2>Price Tracking</h2>
         <h3>Check in on charts and price action</h3>
         <div class="box">

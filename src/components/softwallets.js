@@ -24,7 +24,7 @@ export default function SoftWallets() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='swallet'>
         <h2>Software Wallets</h2>
         <h3>Access your bitcoin</h3>
         <div class="box">

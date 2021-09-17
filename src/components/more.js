@@ -18,7 +18,7 @@ export default function More() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='books'>
         <h2>More Resources</h2>
         <h3>The learning never stops, and it shouldn't!</h3>
         <div class="box">

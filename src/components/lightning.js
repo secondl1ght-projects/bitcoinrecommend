@@ -27,7 +27,7 @@ export default function Lightning() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='lightning'>
         <h2>Lightning Network</h2>
         <h3>Bitcoin's layer 2 network for daily transactions</h3>
         <div class="box">

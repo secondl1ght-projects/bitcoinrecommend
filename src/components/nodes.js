@@ -20,7 +20,7 @@ export default function Nodes() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='nodes'>
         <h2>Nodes</h2>
         <h3>Have direct access to the bitcoin network!</h3>
         <div class="box">

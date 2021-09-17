@@ -25,7 +25,7 @@ export default function Exchanges() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='exchange'>
         <h2>Bitcoin Exchanges</h2>
         <h3>Buy (and maybe sell) bitcoin</h3>
         <div class="box">

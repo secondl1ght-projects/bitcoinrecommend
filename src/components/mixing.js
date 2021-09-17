@@ -19,7 +19,7 @@ export default function Mixing() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='whirlpool'>
         <h2>Mixing (CoinJoin)</h2>
         <h3>
           Smelt UTXOs with others to create freshly minted bitcoins again

@@ -24,7 +24,7 @@ export default function HardWallets() {
     );
   } else {
     return (
-      <div class="cardclick">
+      <div class="cardclick" id='hwallet'>
         <h2>Hardware Wallets</h2>
         <h3>Secure your bitcoin</h3>
         <div class="box">
