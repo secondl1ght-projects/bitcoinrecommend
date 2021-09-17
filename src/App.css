@@ -195,6 +195,7 @@ footer a {
 
 footer a:hover {
   padding: 0;
+  border: none;
 }
 
 #git:hover {
