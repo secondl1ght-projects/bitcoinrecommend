@@ -1,6 +1,7 @@
 import React from "react";
 import coldcard from "../images/coldcard.jpg";
 import ledger from "../images/ledger.jpg";
+import trezor from "../images/trezor.jpg";
 
 export default function HardWallets() {
   const [initial, setInitial] = React.useState(true);
@@ -11,7 +12,7 @@ export default function HardWallets() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id='hwallet'>
+      <div class="cardintro" id="hwallet">
         <button
           id="hardwarewallets"
           type="button"
@@ -24,7 +25,7 @@ export default function HardWallets() {
     );
   } else {
     return (
-      <div class="cardclick" id='hwallet'>
+      <div class="cardclick" id="hwallet">
         <h2>Hardware Wallets</h2>
         <h3>Secure your bitcoin</h3>
         <div class="box">
@@ -43,7 +44,7 @@ export default function HardWallets() {
             most verifiable. This is the hardcore bitcoiners hardware wallet.
           </p>
         </div>
-        <br />
+
         <div class="box">
           <h4>
             <a href="https://www.ledger.com/" target="_blank" rel="noreferrer">
@@ -56,6 +57,19 @@ export default function HardWallets() {
             important note - Ledger's database was hacked and personal details
             of customers were leaked online. This may be enough to deter some
             people from choosing them.
+          </p>
+        </div>
+        
+        <div class="box">
+          <h4>
+            <a href="https://trezor.io/" target="_blank" rel="noreferrer">
+              Trezor
+            </a>
+          </h4>
+          <img src={trezor} alt="Trezor logo" />
+          <p>
+            The original bitcoin hardware wallet, another solid option for your
+            cold storage device.
           </p>
         </div>
       </div>

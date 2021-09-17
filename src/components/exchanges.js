@@ -2,6 +2,7 @@ import React from "react";
 import bisq from "../images/bisq.jpg";
 import kraken from "../images/kraken.jpg";
 import newton from "../images/newton.png";
+import tradeogre from "../images/tradeogre.jpg";
 
 export default function Exchanges() {
   const [initial, setInitial] = React.useState(true);
@@ -12,7 +13,7 @@ export default function Exchanges() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id='exchange'>
+      <div class="cardintro" id="exchange">
         <button
           id="exchanges"
           type="button"
@@ -25,7 +26,7 @@ export default function Exchanges() {
     );
   } else {
     return (
-      <div class="cardclick" id='exchange'>
+      <div class="cardclick" id="exchange">
         <h2>Bitcoin Exchanges</h2>
         <h3>Buy (and maybe sell) bitcoin</h3>
         <div class="box">
@@ -44,7 +45,7 @@ export default function Exchanges() {
             cypherpunk ways to acquire bitcoin, next to getting paid in it.
           </p>
         </div>
-        <br />
+
         <div class="box">
           <h4>
             <a href="https://www.kraken.com/" target="_blank" rel="noreferrer">
@@ -61,7 +62,7 @@ export default function Exchanges() {
             option.
           </p>
         </div>
-        <br />
+
         <div class="box">
           <h4>
             <a href="https://www.newton.co/" target="_blank" rel="noreferrer">
@@ -75,6 +76,19 @@ export default function Exchanges() {
             headed by a CEO who understands bitcoin's mission. Newton offers the
             best UI/UX in Canada and quite possibly in the entire exchange
             industry.
+          </p>
+        </div>
+
+        <div class="box">
+          <h4>
+            <a href="https://tradeogre.com/" target="_blank" rel="noreferrer">
+              TradeOgre
+            </a>
+          </h4>
+          <img src={tradeogre} alt="TradeOgre logo" />
+          <p>
+            Have some altcoins or shitcoins you want to exchange for BTC?
+            TradeOgre has you covered with an easy signup process and no KYC.
           </p>
         </div>
       </div>

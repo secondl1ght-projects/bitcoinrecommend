@@ -11,7 +11,7 @@ export default function Mixing() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id='whirlpool'>
+      <div class="cardintro" id="whirlpool">
         <button id="mixing" type="button" name="mixing" onClick={handleOnClick}>
           Mixing
         </button>
@@ -19,11 +19,9 @@ export default function Mixing() {
     );
   } else {
     return (
-      <div class="cardclick" id='whirlpool'>
+      <div class="cardclick" id="whirlpool">
         <h2>Mixing (CoinJoin)</h2>
-        <h3>
-          Smelt UTXOs with others to create freshly minted bitcoins again
-        </h3>
+        <h3>Smelt UTXOs with others to create freshly minted bitcoins again</h3>
         <div class="box">
           <h4>
             <a
@@ -40,7 +38,7 @@ export default function Mixing() {
             is a fairly easy way to get started mixing with good liquidity.
           </p>
         </div>
-        <br />
+
         <div class="box">
           <h4>
             <a
@@ -55,7 +53,16 @@ export default function Mixing() {
           <p>
             Whirlpool can be used with either a desktop or mobile GUI, from the
             same team that brought you Samourai Wallet this mixer is integrated
-            directed with their wallet software.
+            directed with their wallet software. Here is an additional resource
+            to calculate your estimated whirlpool fees:{" "}
+            <a
+              href="https://www.whirlpoolfees.com/"
+              target="_blank"
+              rel="noreferrer"
+              id='normal'
+            >
+              Whirlpool Fee Calculator
+            </a>.
           </p>
         </div>
       </div>

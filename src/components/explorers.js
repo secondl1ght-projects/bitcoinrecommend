@@ -40,7 +40,7 @@ export default function Explorers() {
             to enable you to explore the entire blockchain.
           </p>
         </div>
-        <br />
+        
         <div class="box">
           <h4>
             <a href="https://oxt.me/" target="_blank" rel="noreferrer">

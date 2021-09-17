@@ -38,7 +38,7 @@ export default function Nodes() {
             interests.
           </p>
         </div>
-        <br />
+
         <div class="box">
           <h4>
             <a href="https://ronindojo.io/" target="_blank" rel="noreferrer">
@@ -53,7 +53,7 @@ export default function Nodes() {
             option.
           </p>
         </div>
-        <br />
+        
         <div class="box">
           <h4>
             <a href="https://start9.com/" target="_blank" rel="noreferrer">

@@ -46,7 +46,7 @@ export default function SoftWallets() {
             desktop and mobile on all platforms.
           </p>
         </div>
-        <br />
+        
         <div class="box">
           <h4>
             <a

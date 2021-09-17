@@ -42,7 +42,7 @@ export default function Lightning() {
             your own node over Tor no problem.
           </p>
         </div>
-        <br />
+
         <div class="box">
           <h4>
             <a href="https://zeusln.app/" target="_blank" rel="noreferrer">
@@ -56,7 +56,7 @@ export default function Lightning() {
             the lightning network through your own node easily with Zeus.
           </p>
         </div>
-        <br />
+
         <div class="box">
           <h4>
             <a
@@ -73,7 +73,7 @@ export default function Lightning() {
             and closing channels and more is as easy as a click of a button.
           </p>
         </div>
-        <br />
+
         <div class="box">
           <h4>
             <a
@@ -93,7 +93,7 @@ export default function Lightning() {
             user.
           </p>
         </div>
-        <br />
+        
         <div class="box">
           <h4>
             <a
