@@ -16,9 +16,9 @@ export default function Lightning() {
     return (
       <div class="cardintro" id='lightning'>
         <button
-          id="lightning"
+          id="lightningb"
           type="button"
-          name="lightning"
+          name="lightningb"
           onClick={handleOnClick}
         >
           Lightning Network
