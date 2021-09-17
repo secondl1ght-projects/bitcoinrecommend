@@ -10,7 +10,7 @@ export default function More() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id='books'>
         <button id="more" type="button" name="more" onClick={handleOnClick}>
           More Resources
         </button>

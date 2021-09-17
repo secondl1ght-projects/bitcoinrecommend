@@ -14,7 +14,7 @@ export default function Lightning() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id='lightning'>
         <button
           id="lightning"
           type="button"

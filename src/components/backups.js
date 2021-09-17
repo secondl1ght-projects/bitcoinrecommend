@@ -10,7 +10,7 @@ export default function Backups() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id="fire">
         <button
           id="backups"
           type="button"

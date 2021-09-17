@@ -11,7 +11,7 @@ export default function HardWallets() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id='hwallet'>
         <button
           id="hardwarewallets"
           type="button"

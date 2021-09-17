@@ -12,7 +12,7 @@ export default function Exchanges() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id='exchange'>
         <button
           id="exchanges"
           type="button"

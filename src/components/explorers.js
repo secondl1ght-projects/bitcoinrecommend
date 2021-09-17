@@ -11,7 +11,7 @@ export default function Explorers() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id='blocks'>
         <button
           id="explorers"
           type="button"

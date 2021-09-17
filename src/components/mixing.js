@@ -11,7 +11,7 @@ export default function Mixing() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id='whirlpool'>
         <button id="mixing" type="button" name="mixing" onClick={handleOnClick}>
           Mixing
         </button>

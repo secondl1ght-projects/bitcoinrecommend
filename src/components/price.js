@@ -11,7 +11,7 @@ export default function Price() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id='chart'>
         <button id="price" type="button" name="price" onClick={handleOnClick}>
           Price Tracking
         </button>

@@ -11,7 +11,7 @@ export default function SoftWallets() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id='swallet'>
         <button
           id="softwarewallets"
           type="button"

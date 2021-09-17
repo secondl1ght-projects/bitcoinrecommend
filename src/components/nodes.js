@@ -12,7 +12,7 @@ export default function Nodes() {
 
   if (initial === true) {
     return (
-      <div class="cardintro">
+      <div class="cardintro" id='nodes'>
         <button id="nodes" type="button" name="nodes" onClick={handleOnClick}>
           Nodes
         </button>

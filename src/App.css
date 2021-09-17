@@ -34,6 +34,76 @@
   box-shadow: 5px 5px 5px black;
 }
 
+#exchange {
+  background-image: url('./images/exchange.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#hwallet {
+  background-image: url('./images/hwallet.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+}
+
+#swallet {
+  background-image: url('./images/swallet.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+}
+
+#fire {
+  background-image: url('./images/fire.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+}
+
+#blocks {
+  background-image: url('./images/blocks.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+}
+
+#nodes {
+  background-image: url('./images/nodes.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+}
+
+#whirlpool {
+  background-image: url('./images/whirlpool.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+}
+
+#lightning {
+  background-image: url('./images/lightning.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+}
+
+#chart {
+  background-image: url('./images/chart.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+}
+
+#books {
+  background-image: url('./images/books.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(181, 138, 238, .7);
+}
+
 button {
   width: 25%;
   height: 15%;
