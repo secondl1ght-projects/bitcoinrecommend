@@ -204,15 +204,15 @@ footer a:hover {
 
 @media only screen and (max-width: 770px) {
   h1 {
-    width: 50%;
+    width: 100%;
   }
 
   .cardintro, .cardclick {
-    width: 75%;
-    height: 30rem;
+    width: 90%;
+    height: 20rem;
   }
 
   #intro {
-    width: 70%;
+    width: 95%;
   }
 }
