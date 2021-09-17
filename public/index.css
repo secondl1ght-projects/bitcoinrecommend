@@ -7,13 +7,13 @@
 
 h1 {
   text-align: center;
-  font-family: 'Roboto', Sans-Serif;
+  font-family: 'Ubuntu', Sans-Serif;
   background-color: rgba(181, 138, 238, 0.25);
   width: 25%;
   height: 2.5rem;
   margin: 0 auto;
-  border: 2.5px solid black;
-  box-shadow: 5px 5px 5px black;
+  border: 2.5px solid #3F1E6B;
+  box-shadow: 5px 5px 5px #B58AEE;
   padding: 1%;
   border-radius: 1.5%;
 }
@@ -33,4 +33,21 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+i {
+  font-size: 65%;
+  color: #B58AEE;
+}
+
+#intro {
+  text-align: center;
+  font-family: 'Ubuntu', Sans-Serif;
+  background-color: rgba(181, 138, 238, 0.25);
+  width: 50%;
+  margin: 0 auto;
+  border: 2.5px solid #3F1E6B;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 0;
 }

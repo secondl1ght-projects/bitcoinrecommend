@@ -9,7 +9,7 @@
 }
 
 .cardintro {
-  margin: 5%;
+  margin: 3%;
   border: 5px solid black;
   width: 35%;
   height: 35rem;
@@ -22,7 +22,7 @@
 }
 
 .cardclick {
-  margin: 5%;
+  margin: 3%;
   border: 5px solid black;
   width: 35%;
   height: 35rem;
@@ -126,11 +126,11 @@ html {
 }
 
 h2, h3, h4, button {
-  font-family: 'Roboto', Sans-Serif;
+  font-family: 'Ubuntu', Sans-Serif;
 }
 
 p, span {
-  font-family: 'Lora', Serif;
+  font-family: 'Open Sans', Serif;
   padding: 0.25%;
 }
 
