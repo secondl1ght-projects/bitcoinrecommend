@@ -2,7 +2,7 @@
 
 A bitcoin recommendations website showcasing useful hardware, software and resources for all levels of users.
 
-Link to site: URL placeholder
+Link to site: <https://www.bitcoinrecommend.com>
 
 ## Table of Contents
 
@@ -42,7 +42,7 @@ I wanted to make a curated list of bitcoin tools that I have found useful so tha
 
 ## Screenshots
 
-Screenshot placeholder
+![screenshot](./src/images/screenshot.png)
 
 ## Usage
 
@@ -52,11 +52,11 @@ Works on both desktop and mobile, accessed via web browser.
 
 Project is: _in progress_
 
-Currently in early phase development.
+Website is currently still being developed.
 
 ## Deployment Status
 
-Deployment status placeholder
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d975a11-b0e4-4df9-bad1-e69aa64b20b5/deploy-status)](https://app.netlify.com/sites/bitcoinrecommend/deploys)
 
 ## Room for Improvement
 
@@ -67,6 +67,28 @@ Deployment status placeholder
 -   Fonts by Google Fonts
 -   Icons by (<https://www.fontawesome.com>)
 -   Coded using Atom text editor
+-   Photos by:
+
+<a href="https://unsplash.com/@ibrahimboran?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ibrahim Boran</a> on <a href="https://unsplash.com/s/photos/exchange?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+<a href="https://unsplash.com/@jankolar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jan Antonin Kolar</a> on <a href="https://unsplash.com/s/photos/hardware-wallet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+<a href="https://unsplash.com/@gilleslambert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gilles Lambert</a> on <a href="https://unsplash.com/s/photos/mobile-phone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+<a href="https://unsplash.com/@nathan_w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Watson</a> on <a href="https://unsplash.com/s/photos/blocks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+<a href="https://unsplash.com/@jjying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">JJ Ying</a> on <a href="https://unsplash.com/s/photos/network?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+<a href="https://unsplash.com/@dreamsoftheoceans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Linus Nylund</a> on <a href="https://unsplash.com/s/photos/water?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+<a href="https://unsplash.com/@littleppl85?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brandon Morgan</a> on <a href="https://unsplash.com/s/photos/lightning?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+<a href="https://unsplash.com/@nick604?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Chong</a> on <a href="https://unsplash.com/s/photos/exchange?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+<a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/books?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+<a href="https://unsplash.com/@hip_dinosaur?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Lindahl</a> on <a href="https://unsplash.com/s/photos/fire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 
 ## Contact
 
