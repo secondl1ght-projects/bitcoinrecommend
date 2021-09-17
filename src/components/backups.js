@@ -1,4 +1,5 @@
 import React from "react";
+import cryptotag from "../images/cryptotag.jpg";
 
 export default function Backups() {
   const [initial, setInitial] = React.useState(true);
@@ -9,7 +10,7 @@ export default function Backups() {
 
   if (initial === true) {
     return (
-      <div class='cardintro'>
+      <div class="cardintro">
         <button
           id="backups"
           type="button"
@@ -22,19 +23,22 @@ export default function Backups() {
     );
   } else {
     return (
-      <div class='cardclick'>
+      <div class="cardclick">
         <h2>Metal Backup</h2>
-        <h3>The Ultimate Cold Storage.</h3>
-        <h4>
-          <a href="https://cryptotag.io/" target="_blank" rel="noreferrer">
-            Cryptotag
-          </a>
-        </h4>
-        <p>
-          This titanium metal backup for your seed phrase will survive anything
-          imaginable. It's literally bulletproof. A must have for any serious
-          hodler.
-        </p>
+        <h3>The ultimate cold storage</h3>
+        <div class="box">
+          <h4>
+            <a href="https://cryptotag.io/" target="_blank" rel="noreferrer">
+              Cryptotag
+            </a>
+          </h4>
+          <img src={cryptotag} alt="Cryptotag logo" />
+          <p>
+            This titanium metal backup for your seed phrase will survive
+            anything imaginable. It's literally bulletproof. A must have for any
+            serious hodler.
+          </p>
+        </div>
       </div>
     );
   }

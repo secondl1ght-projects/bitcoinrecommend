@@ -1,3 +1,13 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .cardintro {
   margin: 5%;
   border: 5px solid black;
@@ -8,6 +18,7 @@
   justify-content: center;
   align-items: center;
   background-color: #B58AEE;
+  box-shadow: 5px 5px 5px black;
 }
 
 .cardclick {
@@ -19,6 +30,8 @@
   overflow: auto;
   text-align: center;
   background-color: #B58AEE;
+  animation: fadeIn 1s;
+  box-shadow: 5px 5px 5px black;
 }
 
 button {
@@ -28,12 +41,75 @@ button {
   border-radius: 2.5%;
   color: whitesmoke;
   border: 5px solid #6E34BC;
+  font-size: 1.5rem;
 }
 
 button:hover {
   border: 5px solid whitesmoke;
+  color: #6E34BC;
 }
 
 html {
   background-color: #523E6B;
+  position: relative;
+  min-height: 100%;
+}
+
+h2, h3, h4, button {
+  font-family: 'Roboto', Sans-Serif;
+}
+
+p, span {
+  font-family: 'Lora', Serif;
+  padding: 0.25%;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h3 {
+  font-style: italic;
+}
+
+img {
+  width: 15%;
+  height: 15%;
+  border-radius: 100%;
+  opacity: 0.9;
+}
+
+.box {
+  border: 1px solid black;
+  margin: 3%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 1%;
+}
+
+a {
+  background-color: rgba(139, 66, 235, 0.7);
+  color: black;
+  padding: 1%;
+  border-radius: 2.5%;
+  border: 1px solid black;
+  transition: padding 0.1s ease-out;
+}
+
+a:hover {
+  padding: 1.5%;
+}
+
+footer a {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 0;
+}
+
+footer a:hover {
+  padding: 0;
+}
+
+#git:hover {
+  color: #523E6B;
 }
