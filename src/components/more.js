@@ -10,6 +10,10 @@ import devs from "../images/devs.svg";
 import jobs from "../images/jobs.jpg";
 import recover from "../images/recover.jpg";
 import tx from "../images/tx.jpg";
+import aantonop from "../images/aantonop.jpg";
+import magazine from '../images/magazine.jpg';
+import blockdate from '../images/blockdate.png';
+import btcgrey from '../images/btcgrey.svg';
 
 export default function More() {
   const [initial, setInitial] = React.useState(true);
@@ -152,7 +156,7 @@ export default function More() {
               Bitcoin Donation Portal
             </a>
           </h4>
-          <img src={devs} alt="Bitcoin logo" />
+          <img src={btcgrey} alt="Bitcoin logo" />
           <p>
             Make a donation to support bitcoin developers, any amount can go a
             long way. If you want bitcoin to succeed, this is one of the most
@@ -219,11 +223,63 @@ export default function More() {
               Blockdate Computer
             </a>
           </h4>
-          <img src={devs} alt="Bitcoin logo" />
+          <img src={blockdate} alt="Blockdate logo"/>
           <p>
             A bit of shameless self promotion here, I made a website that can
             give you past, present and future block dates. It also has a bit of
             bitcoin trivia embedded in it.
+          </p>
+        </div>
+
+        <div className="box">
+          <h4>
+            <a
+              href="https://aantonop.com/books/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Aantonop Books
+            </a>
+          </h4>
+          <img src={aantonop} alt="Aantonop logo" />
+          <p>
+            The Internet of Money series and Mastering Bitcoin are essential
+            reading for anyone looking to learn more about bitcoin from a
+            technical and non-technical perspective.
+          </p>
+        </div>
+
+        <div className="box">
+          <h4>
+            <a
+              href="https://bitcoiner.guide/verify/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Verify.Supply
+            </a>
+          </h4>
+          <img src={devs} alt="Bitcoin logo"/>
+          <p>
+            We know there will only ever be 21 million bitcoin, but how can you
+            be sure that the currency has not been debased? Learn how to verify
+            the bitcoin supply yourself.
+          </p>
+        </div>
+
+        <div className="box">
+          <h4>
+            <a
+              href="https://bitcoinmagazine.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Bitcoin Magazine
+            </a>
+          </h4>
+          <img src={magazine} alt="Bitcoin Magazine logo" />
+          <p>
+            All things bitcoin, in a magazine.
           </p>
         </div>
       </div>
