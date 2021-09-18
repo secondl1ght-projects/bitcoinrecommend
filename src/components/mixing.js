@@ -51,7 +51,7 @@ export default function Mixing() {
           </h4>
           <img src={samourai} alt="Samourai logo" />
           <p>
-            Whirlpool can be used with either a desktop or mobile GUI, from the
+            Whirlpool can be used with either a desktop or mobile GUI. From the
             same team that brought you Samourai Wallet this mixer is integrated
             directed with their wallet software. Here is an additional resource
             to calculate your estimated whirlpool fees:{" "}

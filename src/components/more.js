@@ -172,7 +172,7 @@ export default function More() {
           </h4>
           <img src={jobs} alt="Bitcoiner Jobs logo" />
           <p>
-            Find a bitcoin only job to truly take the deep dive and get as
+            Find a bitcoin-only job to truly take the deep dive and get as
             involved as possible. Wake up every day and make bitcoin and the
             world a better place.
           </p>
