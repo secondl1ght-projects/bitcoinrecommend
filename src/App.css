@@ -119,6 +119,11 @@ button:hover {
   color: #6E34BC;
 }
 
+button:active {
+  border: 5px solid whitesmoke;
+  color: #6E34BC;
+}
+
 html {
   background-color: #523E6B;
   position: relative;
