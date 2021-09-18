@@ -52,7 +52,7 @@ Works on both desktop and mobile, accessed via web browser.
 
 Project is: _in progress_
 
-Website is currently still being developed.
+The website is live but I will continue to make improvements in the future.
 
 ## Deployment Status
 
