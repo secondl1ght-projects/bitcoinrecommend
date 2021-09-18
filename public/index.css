@@ -17,6 +17,15 @@ h1 {
   border-radius: 1.5%;
 }
 
+#header {
+  border: 1px solid #3F1E6B;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin: 0 auto;
+  padding: 1%;
+  border-radius: 0.5%;
+}
+
 footer {
   color: whitesmoke;
   border-top: 1px solid #B58AEE;
@@ -43,10 +52,11 @@ footer {
   text-align: center;
   font-family: 'Ubuntu', Sans-Serif;
   background-color: rgba(181, 138, 238, 0.25);
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   border: 2.5px solid #3F1E6B;
   padding: 1%;
   margin-top: 2%;
   margin-bottom: 0;
+  border-radius: 1%;
 }
