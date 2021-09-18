@@ -228,4 +228,8 @@ footer a:hover {
   #books {
     margin-bottom: 10%;
   }
+
+  #header {
+    width: 95%;
+  }
 }
