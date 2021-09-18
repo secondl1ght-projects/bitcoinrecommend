@@ -14,7 +14,7 @@ export default function Lightning() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id='lightning'>
+      <div className="cardintro" id='lightning'>
         <button
           id="lightningb"
           type="button"
@@ -27,10 +27,10 @@ export default function Lightning() {
     );
   } else {
     return (
-      <div class="cardclick" id='lightning'>
+      <div className="cardclick" id='lightning'>
         <h2>Lightning Network</h2>
         <h3>Bitcoin's layer 2 network for daily transactions</h3>
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://zaphq.io/" target="_blank" rel="noreferrer">
               Zap Wallet
@@ -43,7 +43,7 @@ export default function Lightning() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://zeusln.app/" target="_blank" rel="noreferrer">
               Zeus Wallet
@@ -57,7 +57,7 @@ export default function Lightning() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://www.thunderhub.io/"
@@ -74,7 +74,7 @@ export default function Lightning() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://lightning.engineering/"
@@ -93,8 +93,8 @@ export default function Lightning() {
             user.
           </p>
         </div>
-        
-        <div class="box">
+
+        <div className="box">
           <h4>
             <a
               href="https://explorer.acinq.co/"

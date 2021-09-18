@@ -12,7 +12,7 @@ export default function HardWallets() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id="hwallet">
+      <div className="cardintro" id="hwallet">
         <button
           id="hardwarewallets"
           type="button"
@@ -25,10 +25,10 @@ export default function HardWallets() {
     );
   } else {
     return (
-      <div class="cardclick" id="hwallet">
+      <div className="cardclick" id="hwallet">
         <h2>Hardware Wallets</h2>
         <h3>Secure your bitcoin</h3>
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://coldcardwallet.com/"
@@ -45,7 +45,7 @@ export default function HardWallets() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://www.ledger.com/" target="_blank" rel="noreferrer">
               Ledger
@@ -59,8 +59,8 @@ export default function HardWallets() {
             people from choosing them.
           </p>
         </div>
-        
-        <div class="box">
+
+        <div className="box">
           <h4>
             <a href="https://trezor.io/" target="_blank" rel="noreferrer">
               Trezor

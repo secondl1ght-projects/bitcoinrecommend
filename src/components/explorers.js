@@ -11,7 +11,7 @@ export default function Explorers() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id='blocks'>
+      <div className="cardintro" id='blocks'>
         <button
           id="explorers"
           type="button"
@@ -24,10 +24,10 @@ export default function Explorers() {
     );
   } else {
     return (
-      <div class="cardclick" id='blocks'>
+      <div className="cardclick" id='blocks'>
         <h2>Block Explorers</h2>
         <h3>The blockchain, visualized.</h3>
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://mempool.space/" target="_blank" rel="noreferrer">
               mempool.space
@@ -40,8 +40,8 @@ export default function Explorers() {
             to enable you to explore the entire blockchain.
           </p>
         </div>
-        
-        <div class="box">
+
+        <div className="box">
           <h4>
             <a href="https://oxt.me/" target="_blank" rel="noreferrer">
               OXT

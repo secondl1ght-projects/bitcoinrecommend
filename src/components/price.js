@@ -13,7 +13,7 @@ export default function Price() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id="chart">
+      <div className="cardintro" id="chart">
         <button id="price" type="button" name="price" onClick={handleOnClick}>
           Price Tracking
         </button>
@@ -21,10 +21,10 @@ export default function Price() {
     );
   } else {
     return (
-      <div class="cardclick" id="chart">
+      <div className="cardclick" id="chart">
         <h2>Price Tracking</h2>
         <h3>Check in on charts and price action</h3>
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://moonitor.io/" target="_blank" rel="noreferrer">
               Moonitor
@@ -37,7 +37,7 @@ export default function Price() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://coinmarketcap.com/"
@@ -54,7 +54,7 @@ export default function Price() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://8marketcap.com/" target="_blank" rel="noreferrer">
               Infinite Market Cap
@@ -67,7 +67,7 @@ export default function Price() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://www.fiatmarketcap.com/"

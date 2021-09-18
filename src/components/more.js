@@ -20,7 +20,7 @@ export default function More() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id="books">
+      <div className="cardintro" id="books">
         <button id="more" type="button" name="more" onClick={handleOnClick}>
           More Resources
         </button>
@@ -28,10 +28,10 @@ export default function More() {
     );
   } else {
     return (
-      <div class="cardclick" id="books">
+      <div className="cardclick" id="books">
         <h2>More Resources</h2>
         <h3>The learning never stops, and it shouldn't!</h3>
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://bitcoin.clarkmoody.com/dashboard/"
@@ -48,7 +48,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://www.btcsatoshi.com/"
@@ -65,7 +65,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://21ism.com/" target="_blank" rel="noreferrer">
               21ism
@@ -75,7 +75,7 @@ export default function More() {
           <p>A bitcoin culture collective.</p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://scarce.city/" target="_blank" rel="noreferrer">
               Scarce.city
@@ -88,7 +88,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://www.planbpassport.com/"
@@ -107,7 +107,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://bitblockboom.com/"
@@ -125,7 +125,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="http://web.alsa.org/site/TR/Endurance/GoldenWest?sid=10590&type=fr_informational&pg=informational&fr_id=14523"
@@ -142,7 +142,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://bitcoindevlist.com/"
@@ -160,7 +160,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://bitcoinerjobs.co/"
@@ -178,7 +178,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://walletsrecovery.org/"
@@ -195,7 +195,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://txtenna.com/" target="_blank" rel="noreferrer">
               TxTenna
@@ -209,7 +209,7 @@ export default function More() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://blockdate.computer/"

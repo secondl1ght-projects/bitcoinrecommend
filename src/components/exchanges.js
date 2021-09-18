@@ -13,7 +13,7 @@ export default function Exchanges() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id="exchange">
+      <div className="cardintro" id="exchange">
         <button
           id="exchanges"
           type="button"
@@ -26,10 +26,10 @@ export default function Exchanges() {
     );
   } else {
     return (
-      <div class="cardclick" id="exchange">
+      <div className="cardclick" id="exchange">
         <h2>Bitcoin Exchanges</h2>
         <h3>Buy (and maybe sell) bitcoin</h3>
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://bisq.network/" target="_blank" rel="noreferrer">
               Bisq
@@ -46,7 +46,7 @@ export default function Exchanges() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://www.kraken.com/" target="_blank" rel="noreferrer">
               Kraken
@@ -63,7 +63,7 @@ export default function Exchanges() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://www.newton.co/" target="_blank" rel="noreferrer">
               Newton
@@ -79,7 +79,7 @@ export default function Exchanges() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://tradeogre.com/" target="_blank" rel="noreferrer">
               TradeOgre

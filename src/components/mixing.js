@@ -11,7 +11,7 @@ export default function Mixing() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id="whirlpool">
+      <div className="cardintro" id="whirlpool">
         <button id="mixing" type="button" name="mixing" onClick={handleOnClick}>
           Mixing
         </button>
@@ -19,10 +19,10 @@ export default function Mixing() {
     );
   } else {
     return (
-      <div class="cardclick" id="whirlpool">
+      <div className="cardclick" id="whirlpool">
         <h2>Mixing (CoinJoin)</h2>
         <h3>Smelt UTXOs with others to create freshly minted bitcoins again</h3>
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://github.com/openoms/joininbox"
@@ -39,7 +39,7 @@ export default function Mixing() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://www.samouraiwallet.com/whirlpool"

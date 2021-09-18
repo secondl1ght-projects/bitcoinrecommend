@@ -10,7 +10,7 @@ export default function Backups() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id="fire">
+      <div className="cardintro" id="fire">
         <button
           id="backups"
           type="button"
@@ -23,7 +23,7 @@ export default function Backups() {
     );
   } else {
     return (
-      <div class="cardclick" id='fire'>
+      <div className="cardclick" id='fire'>
         <h2>Metal Backup</h2>
         <h3>The ultimate cold storage</h3>
         <div class="box">

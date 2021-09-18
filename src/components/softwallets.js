@@ -11,7 +11,7 @@ export default function SoftWallets() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id='swallet'>
+      <div className="cardintro" id='swallet'>
         <button
           id="softwarewallets"
           type="button"
@@ -24,10 +24,10 @@ export default function SoftWallets() {
     );
   } else {
     return (
-      <div class="cardclick" id='swallet'>
+      <div className="cardclick" id='swallet'>
         <h2>Software Wallets</h2>
         <h3>Access your bitcoin</h3>
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://electrum.org/#home"
@@ -47,7 +47,7 @@ export default function SoftWallets() {
           </p>
         </div>
         
-        <div class="box">
+        <div className="box">
           <h4>
             <a
               href="https://samouraiwallet.com/"

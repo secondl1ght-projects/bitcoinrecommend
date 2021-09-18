@@ -12,7 +12,7 @@ export default function Nodes() {
 
   if (initial === true) {
     return (
-      <div class="cardintro" id='nodes'>
+      <div className="cardintro" id='nodes'>
         <button id="node" type="button" name="node" onClick={handleOnClick}>
           Nodes
         </button>
@@ -20,10 +20,10 @@ export default function Nodes() {
     );
   } else {
     return (
-      <div class="cardclick" id='nodes'>
+      <div className="cardclick" id='nodes'>
         <h2>Nodes</h2>
         <h3>Have direct access to the bitcoin network!</h3>
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://mynodebtc.com/" target="_blank" rel="noreferrer">
               myNode
@@ -39,7 +39,7 @@ export default function Nodes() {
           </p>
         </div>
 
-        <div class="box">
+        <div className="box">
           <h4>
             <a href="https://ronindojo.io/" target="_blank" rel="noreferrer">
               RoninDojo
@@ -53,8 +53,8 @@ export default function Nodes() {
             option.
           </p>
         </div>
-        
-        <div class="box">
+
+        <div className="box">
           <h4>
             <a href="https://start9.com/" target="_blank" rel="noreferrer">
               Start9
