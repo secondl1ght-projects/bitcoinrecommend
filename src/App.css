@@ -234,3 +234,13 @@ footer a:hover {
     padding: 2%;
   }
 }
+
+@media only screen and (max-width: 1300px) {
+  h1 {
+    width: 50%;
+  }
+
+  .cardintro, .cardclick {
+    height: 15rem;
+  }
+}
