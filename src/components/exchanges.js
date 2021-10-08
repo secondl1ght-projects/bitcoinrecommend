@@ -74,7 +74,7 @@ export default function Exchanges() {
               Shakepay
             </a>
           </h4>
-          <img src={shakepay} alt="Shakepay logo" />
+          <img src={shake} alt="Shakepay logo" />
           <p>
             A great Canadian exchange option is Shakepay. They feel like a
             bitcoin-only company even though they offer one other altcoin. You
