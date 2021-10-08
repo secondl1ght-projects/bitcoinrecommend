@@ -3,6 +3,7 @@ import bisq from "../images/bisq.jpg";
 import kraken from "../images/kraken.jpg";
 import newton from "../images/newton.png";
 import tradeogre from "../images/tradeogre.jpg";
+import shake from "../images/shake.jpg";
 
 export default function Exchanges() {
   const [initial, setInitial] = React.useState(true);
@@ -60,6 +61,27 @@ export default function Exchanges() {
             true bitcoiner company and in it for the right reasons. If you are
             OK with KYC, then I think they are the best international exchange
             option.
+          </p>
+        </div>
+
+        <div className="box">
+          <h4>
+            <a
+              href="https://www.shakepay.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Shakepay
+            </a>
+          </h4>
+          <img src={shakepay} alt="Shakepay logo" />
+          <p>
+            A great Canadian exchange option is Shakepay. They feel like a
+            bitcoin-only company even though they offer one other altcoin. You
+            can buy bitcoin via e-transfer and withdraw to cold storage in
+            minutes. You can even shake your phone to receive sats back. They
+            also have recently launched a 1% bitcoin back credit card if you
+            want to earn even more sats.
           </p>
         </div>
 
