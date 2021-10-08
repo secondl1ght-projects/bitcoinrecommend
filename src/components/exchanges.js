@@ -79,7 +79,7 @@ export default function Exchanges() {
             A great Canadian exchange option is Shakepay. They feel like a
             bitcoin-only company even though they offer one other altcoin. You
             can buy bitcoin via e-transfer and withdraw to cold storage in
-            minutes. You can even shake your phone to receive sats back. They
+            minutes. You can even shake your phone to receive sats back! They
             also have recently launched a 1% bitcoin back credit card if you
             want to earn even more sats.
           </p>
