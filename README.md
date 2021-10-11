@@ -4,6 +4,8 @@ A bitcoin recommendations website showcasing useful hardware, software and resou
 
 Link to site: <https://www.bitcoinrecommend.com>
 
+![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fbitcoinrecommend.com)
+
 ## Table of Contents
 
 -   [General Info](#general-information)
