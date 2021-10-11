@@ -10,6 +10,7 @@ import More from "./components/more";
 import Nodes from "./components/nodes";
 import Price from "./components/price";
 import SoftWallets from "./components/softwallets";
+import ScrollArrow from "./components/scrollarrow";
 import "./App.css";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Lightning />
       <Price />
       <More />
+      <ScrollArrow />
     </>
   );
 }
