@@ -125,7 +125,7 @@ button:active {
 }
 
 html {
-  background: linear-gradient(90deg, #523E6B, whitesmoke, #523E6B);
+  background: linear-gradient(90deg, #523E6B, #B58AEE, #523E6B);
   position: relative;
   min-height: 100%;
   border: 1px solid black;
