@@ -4,6 +4,7 @@ import zeus from "../images/zeus.jpg";
 import thunderhub from "../images/thunderhub.jpg";
 import lightninglabs from "../images/lightninglabs.png";
 import network from "../images/network.jpg";
+import alby from '../images/alby.jpg';
 
 export default function Lightning() {
   const [initial, setInitial] = React.useState(true);
@@ -14,7 +15,7 @@ export default function Lightning() {
 
   if (initial === true) {
     return (
-      <div className="cardintro" id='lightning'>
+      <div className="cardintro" id="lightning">
         <button
           id="lightningb"
           type="button"
@@ -27,9 +28,26 @@ export default function Lightning() {
     );
   } else {
     return (
-      <div className="cardclick" id='lightning'>
+      <div className="cardclick" id="lightning">
         <h2>Lightning Network</h2>
         <h3>Bitcoin's layer 2 network for daily transactions</h3>
+
+        <div className="box">
+          <h4>
+            <a href="https://getalby.com" target="_blank" rel="noreferrer">
+              Alby
+            </a>
+          </h4>
+          <img src={alby} alt="Alby logo" />
+          <p>
+            Alby is a lightning browser extension that allows you to support
+            content you enjoy on the internet. Sending sats to your favorite
+            creators is super easy and you can set budgets for each website you
+            visit. You can also use Alby for authentication and it has a fun and
+            awesome mascot!
+          </p>
+        </div>
+
         <div className="box">
           <h4>
             <a href="https://zaphq.io/" target="_blank" rel="noreferrer">

@@ -4,6 +4,7 @@ import kraken from "../images/kraken.jpg";
 import newton from "../images/newton.png";
 import tradeogre from "../images/tradeogre.jpg";
 import shake from "../images/shake.jpg";
+import bleskomat from '../images/bleskomat.jpg';
 
 export default function Exchanges() {
   const [initial, setInitial] = React.useState(true);
@@ -44,6 +45,25 @@ export default function Exchanges() {
             security deposits locked in multi-sig until the trade is finalized.
             No permission and no KYC is required, this is one of the most
             cypherpunk ways to acquire bitcoin, next to getting paid in it.
+          </p>
+        </div>
+
+        <div className="box">
+          <h4>
+            <a href="https://bleskomat.com" target="_blank" rel="noreferrer">
+              Bleskomat
+            </a>
+          </h4>
+          <img src={bleskomat} alt="Bleskomat logo" />
+          <p>
+            Not necessarily an exchange but a fast and easy way to stack sats,
+            and support a local business at the same time. Bleskmomat is a next
+            generation lightning ATM, insert any fiat currency and get sats sent
+            to your lightning wallet instantly and for low fees. Bleskomat takes
+            a refreshingly different approach to bitcoin ATMs being small, fun
+            and approachable. See if you can find one in your town or while
+            traveling and if not, then here's a great opportunity to get involved
+            in the bitcoin community and become an ATM operator!
           </p>
         </div>
 
