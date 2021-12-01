@@ -1,7 +1,8 @@
 import React from "react";
 import electrum from "../images/electrum.jpg";
 import samourai from "../images/samourai.png";
-import sparrow from '../images/sparrow.jpg';
+import sparrow from "../images/sparrow.jpg";
+import coinos from '../images/coinos.jpg';
 
 export default function SoftWallets() {
   const [initial, setInitial] = React.useState(true);
@@ -28,6 +29,23 @@ export default function SoftWallets() {
       <div className="cardclick" id="swallet">
         <h2>Software Wallets</h2>
         <h3>Access your bitcoin</h3>
+
+        <div className="box">
+          <h4>
+            <a href="https://coinos.io" target="_blank" rel="noreferrer">
+              coinos
+            </a>
+          </h4>
+          <img src={coinos} alt="coinos logo" />
+          <p>
+            coinos is a fantastic web-based wallet where you can send and receive
+            bitcoin on-chain or via lightning and liquid seamlessly. Around since
+            2012 it is a trusted service in the bitcoin space. You can be up and
+            running in seconds, and you can use it completely anonymously. If
+            you are looking for a quick wallet or to onboard some new
+            users fast, then coinos is a great option. Keeping in mind it is custodial.
+          </p>
+        </div>
         <div className="box">
           <h4>
             <a
