@@ -43,7 +43,7 @@ export default function SoftWallets() {
             2012 it is a trusted service in the bitcoin space. You can be up and
             running in seconds, and you can use it completely anonymously. If
             you are looking for a quick wallet or to onboard some new
-            users fast, then coinos is a great option. Keeping in mind it is custodial.
+            users fast, then coinos is a great option.
           </p>
         </div>
         <div className="box">
