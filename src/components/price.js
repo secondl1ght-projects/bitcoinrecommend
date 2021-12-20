@@ -1,6 +1,6 @@
 import React from "react";
 import moonitor from "../images/moonitor.jpg";
-import cmc from "../images/cmc.jpg";
+import bitbo from "../images/bitbo.jpg";
 import infinite from "../images/infinite.svg";
 import fiat from "../images/fiat.png";
 
@@ -40,17 +40,16 @@ export default function Price() {
         <div className="box">
           <h4>
             <a
-              href="https://coinmarketcap.com/"
+              href="https://bitbo.io/"
               target="_blank"
               rel="noreferrer"
             >
-              CoinMarketCap
+             Bitbo
             </a>
           </h4>
-          <img src={cmc} alt="CMC logo" />
+          <img src={bitbo} alt="Bitbo logo" />
           <p>
-            Probably the most popular website for price data and charts. Until I
-            am aware of a bitcoin-only site like this, i'll keep using it.
+            A bitcoin-only markets dashboard.
           </p>
         </div>
 
