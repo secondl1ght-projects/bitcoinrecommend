@@ -14,6 +14,7 @@ import aantonop from "../images/aantonop.jpg";
 import magazine from '../images/magazine.jpg';
 import blockdate from '../images/blockdate.png';
 import btcgrey from '../images/btcgrey.svg';
+import nodes from '../images/nodes.png';
 
 export default function More() {
   const [initial, setInitial] = React.useState(true);
@@ -282,6 +283,22 @@ export default function More() {
             All things bitcoin, in a magazine.
           </p>
         </div>
+
+				<div className="box">
+					<h4>
+						<a
+							href="https://www.ministryofnodes.com.au/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Ministry of Nodes
+						</a>
+					</h4>
+					<img src={nodes} alt="MoN logo"/>
+					<p>
+						A very helpful resource for a variety of bitcoin related topics provided by respected bitcoiners <a href='https://twitter.com/stephanlivera' target='_blank' rel='noreferrer' id='normal'>Stephan Livera</a> and <a href='https://twitter.com/_k3tan' target='_blank' rel='noreferrer' id='normal'>k3tan</a>. One of the most unique and beneficial services they provide is 1 on 1 bitcoin consulting. They will spend time with you answering any and all of your bitcoin questions. From newcoiner to bitcoin-pro, they have the depth of knowledge required to help you.
+					</p>
+				</div>
       </div>
     );
   }
