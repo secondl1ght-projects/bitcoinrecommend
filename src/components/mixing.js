@@ -1,6 +1,7 @@
 import React from "react";
 import joinmarket from "../images/joinmarket.jpg";
 import samourai from "../images/samourai.png";
+import jam from "../images/jam.png";
 
 export default function Mixing() {
   const [initial, setInitial] = React.useState(true);
@@ -22,6 +23,25 @@ export default function Mixing() {
       <div className="cardclick" id="whirlpool">
         <h2>Mixing (CoinJoin)</h2>
         <h3>Smelt UTXOs with others to create freshly minted bitcoins again</h3>
+        <div className="box">
+          <h4>
+            <a
+              href="https://github.com/joinmarket-webui/joinmarket-webui"
+              target="_blank"
+              rel="noreferrer"
+            >
+              JoinMarket (Jam)
+            </a>
+          </h4>
+          <img src={jam} alt="Jam logo" />
+          <p>
+            A new offering from the JoinMarket stack is a beautiful and simple
+            web interface, this option is great for users who are not
+            comfortable with the command line. Market makers can earn a yield on
+            their bitcoin using this service.
+          </p>
+        </div>
+
         <div className="box">
           <h4>
             <a
@@ -59,10 +79,11 @@ export default function Mixing() {
               href="https://www.whirlpoolfees.com/"
               target="_blank"
               rel="noreferrer"
-              id='normal'
+              id="normal"
             >
               Whirlpool Fee Calculator
-            </a>.
+            </a>
+            .
           </p>
         </div>
       </div>

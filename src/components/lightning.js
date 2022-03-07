@@ -4,7 +4,9 @@ import zeus from "../images/zeus.jpg";
 import thunderhub from "../images/thunderhub.jpg";
 import lightninglabs from "../images/lightninglabs.png";
 import network from "../images/network.jpg";
-import alby from '../images/alby.jpg';
+import alby from "../images/alby.jpg";
+import spark from "../images/spark.png";
+import makers from "../images/makers.png";
 
 export default function Lightning() {
   const [initial, setInitial] = React.useState(true);
@@ -45,6 +47,33 @@ export default function Lightning() {
             creators is super easy and you can set budgets for each website you
             visit. You can also use Alby for authentication and it has a fun and
             awesome mascot!
+          </p>
+        </div>
+
+        <div className="box">
+          <h4>
+            <a
+              href="https://github.com/shesek/spark-wallet"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Spark Wallet
+            </a>
+          </h4>
+          <img src={spark} alt="Spark logo" />
+          <p>
+            Spark Wallet is a simple and effective lightning wallet available
+            across multiple devices. It uses the best lightning implementation
+            in my opinion which is c-lightning by the team over at{" "}
+            <a
+              href="https://www.blockstream.com/lightning/"
+              target="_blank"
+              rel="noreferrer"
+              id="normal"
+            >
+              Blockstream
+            </a>
+            .
           </p>
         </div>
 
@@ -126,6 +155,19 @@ export default function Lightning() {
           <p>
             An awesome website to visual the power of lightning, also you can
             use it to find well connected peers to connect your own node with.
+          </p>
+        </div>
+
+        <div className="box">
+          <h4>
+            <a href="https://makers.bolt.fun/" target="_blank" rel="noreferrer">
+              makers.bolt.fun
+            </a>
+          </h4>
+          <img src={makers} alt="Makers logo" id="notcircle" />
+          <p>
+            Curious where you can spend your sats online? Check out this site
+            and discover tons of cool websites!
           </p>
         </div>
       </div>
